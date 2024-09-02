@@ -1,0 +1,54 @@
+{
+    "users": {
+        "user1": {
+            "username": "John Doe",
+            "email": "john@example.com",
+            "password": "password1"
+        },
+        "user2": {
+            "username": "Jane Doe",
+            "email": "jane@example.com",
+            "password": "password2"
+        },
+        "user3": {
+            "username": "Humberto",
+            "email": "humber@example.com",
+            "password": "password3"
+        }
+    },
+    "projects": {
+        "project1": {
+            "name": "Project 1",
+            "description": "This is project 1",
+            "status": "Completed",
+            "budget": "$5000",
+            "creatorID": "user1",
+            "members": ["user1", "user2"],
+            "tasks": [
+                {
+                    "id": 1,
+                    "name": "Task 1",
+                    "description": "This is a description of the task.",
+                    "assignee": "user1",
+                    "status": "Not Started",
+                    "dueDate": "2022-01-31",
+                    "comments": [
+                        {
+                            "text": "This is a comment.",
+                            "author": "user2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "project2": {
+            "name": "Project 2",
+            "description": "This is project 2",
+            "status": "In Progress",
+            "budget": "$3000",
+            "creatorID": "user2",
+            "members": ["user1", "user2"],
+            "tasks": []
+        }
+    }
+}
